@@ -1,28 +1,70 @@
 
 * {
     padding-left: 15px;
-    padding-right: 15px;   
+    padding-right: 15px;
 }
+
 #top {
     display: flex;
     justify-content: space-between;
 }
 
 #logo {
-    height: 120px;
-    width: auto
+    height: 175px;
+    width: auto;
+    cursor: pointer;
+}
 
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-form {
+    height: 40px;
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+    background-color: rgb(245, 241, 241);
+}
+
+#search-button {
+    height: 47px;
+    width: 115px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-align: left;
+}
+
+#buy-tickets {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: white;
+    box-shadow:  0 10px 14px 0 #333333, 0 13px 30px 0 #333333;
+    border-color: black;
+    height: 47px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
 }
 
 #body {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 span {
     display: flex;
     flex-direction: column;
-    align-content: space-between
+    align-content: space-between;
 }
 
 .side-menu{
@@ -35,36 +77,16 @@ span {
     border-right: none;
     border-left: none;
     background-color: white;
-    
+    cursor: pointer;
+    text-align: center;
 }
 
 main {
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 #home-image {
     height: auto;
     width: 65vw;
-}
-
-#search {
-    display: flex;
-    flex-direction: row
-}
-
-#search-form {
-    height: 40px;
-    width: 200px;
-    border-style: inset
-}
-
-#search-button {
-    height: 47px;
-    width: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    font-weight: bold;
-    border: none;
-    background-color: white;
 }
