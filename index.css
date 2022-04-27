@@ -1,0 +1,52 @@
+
+* {
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 120px;
+    width: auto
+
+}
+
+#body {
+    display: flex;
+}
+
+span {
+    justify-content: space-between;
+}
+
+.side-menu{
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end
+}
+
+#home-image {
+    height: auto;
+    width: 65vw;
+}
+
+#search-form {
+    height: 40px;
+    width: 200px
+}
+
+#search-button {
+    height: 47px;
+    width: 60px;
+}
